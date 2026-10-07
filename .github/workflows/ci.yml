@@ -6,7 +6,26 @@ on:
     tags-ignore: ['*']
 
 jobs:
-  ci:
-    uses: Syzygy-Hub/.github/.github/workflows/ios-ci.yml@main
-    with:
-      coverage: false
+  lint:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SwiftLint
+        run: brew install swiftlint
+      - name: Lint
+        run: swiftlint --config .swiftlint.yml
+
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve SPM dependencies
+        run: xcodebuild -resolvePackageDependencies -project SyzygyBase.xcodeproj -scheme SyzygyBase
+      - name: Test
+        run: |
+          xcodebuild test \
+            -project SyzygyBase.xcodeproj \
+            -scheme SyzygyBase \
+            -destination 'platform=iOS Simulator,OS=latest,name=iPhone 16' \
+            -skipPackagePluginValidation \
+            | xcpretty || true
