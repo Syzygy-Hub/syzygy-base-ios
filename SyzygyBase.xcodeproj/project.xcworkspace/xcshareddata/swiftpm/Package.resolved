@@ -1,0 +1,51 @@
+{
+  "originHash" : "a9842ebd5fdf17e5241365c5e180206da96f92edc2f5acd4ebeae9322dadd989",
+  "pins" : [
+    {
+      "identity" : "syzygy-ai-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Syzygy-Hub/syzygy-ai-ios",
+      "state" : {
+        "revision" : "04c8d832fa2ab269be0e7983d4f2db91e3988a72",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "syzygy-core-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Syzygy-Hub/syzygy-core-ios",
+      "state" : {
+        "revision" : "72ba46923ca1d51cbbc21a0177ef813d27b38699",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "syzygy-foundation-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Syzygy-Hub/syzygy-foundation-ios",
+      "state" : {
+        "revision" : "26cdd82be96d302748d7d3fb8b721e1eb336f21e",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "syzygy-services-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Syzygy-Hub/syzygy-services-ios",
+      "state" : {
+        "revision" : "997d408e50ef46f117de09d1aa496520a87e8762",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "syzygy-ui-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Syzygy-Hub/syzygy-ui-ios",
+      "state" : {
+        "revision" : "5b1509fcc12a1bd0227b21461aca6efaec1a8203",
+        "version" : "3.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

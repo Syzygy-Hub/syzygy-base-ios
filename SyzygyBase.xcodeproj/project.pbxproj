@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000003BB000003CC000003 /* SyzygyFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = AA000002BB000002CC000002 /* SyzygyFoundation */; };
+		BB000003CC000003DD000003 /* SyzygyCore in Frameworks */ = {isa = PBXBuildFile; productRef = BB000002CC000002DD000002 /* SyzygyCore */; };
+		CC000003DD000003EE000003 /* SyzygyServices in Frameworks */ = {isa = PBXBuildFile; productRef = CC000002DD000002EE000002 /* SyzygyServices */; };
+		DD000003EE000003FF000003 /* SyzygyAI in Frameworks */ = {isa = PBXBuildFile; productRef = DD000002EE000002FF000002 /* SyzygyAI */; };
+		EE000003FF000003AA000003 /* syzygy-ui-ios in Frameworks */ = {isa = PBXBuildFile; productRef = EE000002FF000002AA000002 /* syzygy-ui-ios */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63EA4BC33017A7CF00C731AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EA4BAD3017A7CC00C731AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EA4BB43017A7CC00C731AB;
+			remoteInfo = SyzygyBase;
+		};
+		63EA4BCD3017A7CF00C731AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63EA4BAD3017A7CC00C731AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63EA4BB43017A7CC00C731AB;
+			remoteInfo = SyzygyBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63EA4BB53017A7CC00C731AB /* SyzygyBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyzygyBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EA4BC23017A7CF00C731AB /* SyzygyBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyzygyBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EA4BCC3017A7CF00C731AB /* SyzygyBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyzygyBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63EA4BB73017A7CC00C731AB /* SyzygyBase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SyzygyBase;
+			sourceTree = "<group>";
+		};
+		63EA4BC53017A7CF00C731AB /* SyzygyBaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SyzygyBaseTests;
+			sourceTree = "<group>";
+		};
+		63EA4BCF3017A7CF00C731AB /* SyzygyBaseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SyzygyBaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63EA4BB23017A7CC00C731AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000003BB000003CC000003 /* SyzygyFoundation in Frameworks */,
+				BB000003CC000003DD000003 /* SyzygyCore in Frameworks */,
+				CC000003DD000003EE000003 /* SyzygyServices in Frameworks */,
+				DD000003EE000003FF000003 /* SyzygyAI in Frameworks */,
+				EE000003FF000003AA000003 /* syzygy-ui-ios in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BBF3017A7CF00C731AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BC93017A7CF00C731AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63EA4BAC3017A7CC00C731AB = {
+			isa = PBXGroup;
+			children = (
+				63EA4BB73017A7CC00C731AB /* SyzygyBase */,
+				63EA4BC53017A7CF00C731AB /* SyzygyBaseTests */,
+				63EA4BCF3017A7CF00C731AB /* SyzygyBaseUITests */,
+				63EA4BB63017A7CC00C731AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63EA4BB63017A7CC00C731AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63EA4BB53017A7CC00C731AB /* SyzygyBase.app */,
+				63EA4BC23017A7CF00C731AB /* SyzygyBaseTests.xctest */,
+				63EA4BCC3017A7CF00C731AB /* SyzygyBaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63EA4BB43017A7CC00C731AB /* SyzygyBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EA4BD63017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBase" */;
+			buildPhases = (
+				63EA4BB13017A7CC00C731AB /* Sources */,
+				63EA4BB23017A7CC00C731AB /* Frameworks */,
+				63EA4BB33017A7CC00C731AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63EA4BB73017A7CC00C731AB /* SyzygyBase */,
+			);
+			name = SyzygyBase;
+			packageProductDependencies = (
+				AA000002BB000002CC000002 /* SyzygyFoundation */,
+				BB000002CC000002DD000002 /* SyzygyCore */,
+				CC000002DD000002EE000002 /* SyzygyServices */,
+				DD000002EE000002FF000002 /* SyzygyAI */,
+				EE000002FF000002AA000002 /* syzygy-ui-ios */,
+			);
+			productName = SyzygyBase;
+			productReference = 63EA4BB53017A7CC00C731AB /* SyzygyBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63EA4BC13017A7CF00C731AB /* SyzygyBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EA4BD93017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBaseTests" */;
+			buildPhases = (
+				63EA4BBE3017A7CF00C731AB /* Sources */,
+				63EA4BBF3017A7CF00C731AB /* Frameworks */,
+				63EA4BC03017A7CF00C731AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EA4BC43017A7CF00C731AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63EA4BC53017A7CF00C731AB /* SyzygyBaseTests */,
+			);
+			name = SyzygyBaseTests;
+			packageProductDependencies = (
+			);
+			productName = SyzygyBaseTests;
+			productReference = 63EA4BC23017A7CF00C731AB /* SyzygyBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63EA4BCB3017A7CF00C731AB /* SyzygyBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EA4BDC3017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBaseUITests" */;
+			buildPhases = (
+				63EA4BC83017A7CF00C731AB /* Sources */,
+				63EA4BC93017A7CF00C731AB /* Frameworks */,
+				63EA4BCA3017A7CF00C731AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63EA4BCE3017A7CF00C731AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63EA4BCF3017A7CF00C731AB /* SyzygyBaseUITests */,
+			);
+			name = SyzygyBaseUITests;
+			packageProductDependencies = (
+			);
+			productName = SyzygyBaseUITests;
+			productReference = 63EA4BCC3017A7CF00C731AB /* SyzygyBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63EA4BAD3017A7CC00C731AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					63EA4BB43017A7CC00C731AB = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					63EA4BC13017A7CF00C731AB = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 63EA4BB43017A7CC00C731AB;
+					};
+					63EA4BCB3017A7CF00C731AB = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 63EA4BB43017A7CC00C731AB;
+					};
+				};
+			};
+			buildConfigurationList = 63EA4BB03017A7CC00C731AB /* Build configuration list for PBXProject "SyzygyBase" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63EA4BAC3017A7CC00C731AB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				63EE172930759807004E5C73 /* XCRemoteSwiftPackageReference "syzygy-foundation-ios" */,
+				63EE172A3075981E004E5C73 /* XCRemoteSwiftPackageReference "syzygy-core-ios" */,
+				63EE172B3075983A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-services-ios" */,
+				63EE172C3075985A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ai-ios" */,
+				63EE172D3075986F004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ui-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63EA4BB63017A7CC00C731AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63EA4BB43017A7CC00C731AB /* SyzygyBase */,
+				63EA4BC13017A7CF00C731AB /* SyzygyBaseTests */,
+				63EA4BCB3017A7CF00C731AB /* SyzygyBaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63EA4BB33017A7CC00C731AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BC03017A7CF00C731AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BCA3017A7CF00C731AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63EA4BB13017A7CC00C731AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BBE3017A7CF00C731AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EA4BC83017A7CF00C731AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63EA4BC43017A7CF00C731AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EA4BB43017A7CC00C731AB /* SyzygyBase */;
+			targetProxy = 63EA4BC33017A7CF00C731AB /* PBXContainerItemProxy */;
+		};
+		63EA4BCE3017A7CF00C731AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63EA4BB43017A7CC00C731AB /* SyzygyBase */;
+			targetProxy = 63EA4BCD3017A7CF00C731AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63EA4BD43017A7CF00C731AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63EA4BD53017A7CF00C731AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63EA4BD73017A7CF00C731AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SyzygyBase;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63EA4BD83017A7CF00C731AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SyzygyBase;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63EA4BDA3017A7CF00C731AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyzygyBase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SyzygyBase";
+			};
+			name = Debug;
+		};
+		63EA4BDB3017A7CF00C731AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyzygyBase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SyzygyBase";
+			};
+			name = Release;
+		};
+		63EA4BDD3017A7CF00C731AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyzygyBase;
+			};
+			name = Debug;
+		};
+		63EA4BDE3017A7CF00C731AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZYYK62PF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syzygyhub.base.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SyzygyBase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63EA4BB03017A7CC00C731AB /* Build configuration list for PBXProject "SyzygyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EA4BD43017A7CF00C731AB /* Debug */,
+				63EA4BD53017A7CF00C731AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EA4BD63017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EA4BD73017A7CF00C731AB /* Debug */,
+				63EA4BD83017A7CF00C731AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EA4BD93017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EA4BDA3017A7CF00C731AB /* Debug */,
+				63EA4BDB3017A7CF00C731AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EA4BDC3017A7CF00C731AB /* Build configuration list for PBXNativeTarget "SyzygyBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EA4BDD3017A7CF00C731AB /* Debug */,
+				63EA4BDE3017A7CF00C731AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63EE172930759807004E5C73 /* XCRemoteSwiftPackageReference "syzygy-foundation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Syzygy-Hub/syzygy-foundation-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		63EE172A3075981E004E5C73 /* XCRemoteSwiftPackageReference "syzygy-core-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Syzygy-Hub/syzygy-core-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		63EE172B3075983A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-services-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Syzygy-Hub/syzygy-services-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		63EE172C3075985A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ai-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Syzygy-Hub/syzygy-ai-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		63EE172D3075986F004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ui-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Syzygy-Hub/syzygy-ui-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA000002BB000002CC000002 /* SyzygyFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63EE172930759807004E5C73 /* XCRemoteSwiftPackageReference "syzygy-foundation-ios" */;
+			productName = SyzygyFoundation;
+		};
+		BB000002CC000002DD000002 /* SyzygyCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63EE172A3075981E004E5C73 /* XCRemoteSwiftPackageReference "syzygy-core-ios" */;
+			productName = SyzygyCore;
+		};
+		CC000002DD000002EE000002 /* SyzygyServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63EE172B3075983A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-services-ios" */;
+			productName = SyzygyServices;
+		};
+		DD000002EE000002FF000002 /* SyzygyAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63EE172C3075985A004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ai-ios" */;
+			productName = SyzygyAI;
+		};
+		EE000002FF000002AA000002 /* syzygy-ui-ios */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63EE172D3075986F004E5C73 /* XCRemoteSwiftPackageReference "syzygy-ui-ios" */;
+			productName = "syzygy-ui-ios";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63EA4BAD3017A7CC00C731AB /* Project object */;
+}

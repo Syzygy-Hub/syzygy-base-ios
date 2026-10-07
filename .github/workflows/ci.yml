@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+    tags-ignore: ['*']
+
+jobs:
+  ci:
+    uses: Syzygy-Hub/.github/.github/workflows/ios-ci.yml@main
+    with:
+      coverage: false
