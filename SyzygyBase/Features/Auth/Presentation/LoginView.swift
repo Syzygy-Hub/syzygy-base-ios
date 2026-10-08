@@ -145,6 +145,7 @@ struct LoginView: View {
 // MARK: - Custom Text Field Style
 
 private struct CustomTextFieldStyle: TextFieldStyle {
+    // swiftlint:disable:next identifier_name
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding()

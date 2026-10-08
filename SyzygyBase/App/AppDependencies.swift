@@ -22,9 +22,9 @@ enum AppDependencies {
     // MARK: - Shared container
 
     static let container: Container = {
-        let c = Container()
-        Task { await registerAll(in: c) }
-        return c
+        let newContainer = Container()
+        Task { await registerAll(in: newContainer) }
+        return newContainer
     }()
 
     // MARK: - Registration
@@ -53,8 +53,8 @@ enum AppDependencies {
         }
 
         // ── Layer 2: Networking ───────────────────────────────────────────────────
-        await container.register(URLSessionNetworkClient.self, lifetime: .singleton) { c in
-            let logger = try await c.resolve(Logger.self)
+        await container.register(URLSessionNetworkClient.self, lifetime: .singleton) { resolver in
+            let logger = try await resolver.resolve(Logger.self)
             return URLSessionNetworkClient(logger: logger)
         }
 
@@ -69,9 +69,9 @@ enum AppDependencies {
         }
 
         // ── Layer 3: Auth ─────────────────────────────────────────────────────────
-        await container.register(SyzygyAuthProvider.self, lifetime: .singleton) { c in
-            let keychain = try await c.resolve(KeychainStorageProvider.self)
-            let network = try await c.resolve(URLSessionNetworkClient.self)
+        await container.register(SyzygyAuthProvider.self, lifetime: .singleton) { resolver in
+            let keychain = try await resolver.resolve(KeychainStorageProvider.self)
+            let network = try await resolver.resolve(URLSessionNetworkClient.self)
             return SyzygyAuthProvider(storage: keychain, networkClient: network)
         }
 

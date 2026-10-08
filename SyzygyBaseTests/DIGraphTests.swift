@@ -6,8 +6,8 @@ final class DIGraphTests: XCTestCase {
 
     func testMakeLoginViewModelSucceeds() {
         // Uses legacy shims — compiles and runs without SPM packages linked
-        let vm = AppDependencies.makeLoginViewModel()
-        XCTAssertNotNil(vm)
+        let loginViewModel = AppDependencies.makeLoginViewModel()
+        XCTAssertNotNil(loginViewModel)
     }
 
     func testContainerIsCreated() {

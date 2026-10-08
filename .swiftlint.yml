@@ -8,6 +8,7 @@ excluded:
 
 disabled_rules:
   - trailing_whitespace
+  - todo
 
 opt_in_rules:
   - empty_count
